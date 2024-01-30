@@ -2,7 +2,7 @@
 
 * Студент: [Артём Степанов](https://up.htmlacademy.ru/htmlcss/39/user/887387).
 * Наставник: [Владислав Ермолаев](https://htmlacademy.ru/profile/id128353).
-
+* Сайт: [Мой первый сайт](https://killer-62rus.github.io/887387-sedona-39/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>

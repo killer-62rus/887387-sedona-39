@@ -4,12 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Гостиницы</title>
+  <style>
+    .main-inner {
+      background-image: url(image/background-search.png);
+      background-repeat: no-repeat;
+
+    }
+  </style>
 </head>
 <body>
   <header class="page-header">
     <nav class="main-navigation">
       <a href="index.html" class="main-logo">
-        <img src="#" alt="Логотип компании" class="navigation-logo">
+        <img src="image/logo.svg" width="138" height="64" alt="Логотип компании" class="navigation-logo">
       </a>
       <ul class="navigation-list">
         <li class="navigation-item">
@@ -24,9 +31,11 @@
       </ul>
       <ul class="navigation-list navigation-user">
         <li class="navigation-item">
+          <img src="image/icons_search.png" width="20" height="20" alt="Поиск">
           <a href="#"><span class="visually-hidden">Поиск</span></a>
         </li>
         <li class="navigation-item">
+          <img src="image/primary.png" width="20" height="20" alt="Избранное">
           <a href="#"><span class="visually-hidden">Избранное</span></a>
         </li>
         <li class="navigation-item">
@@ -42,10 +51,10 @@
       <h1 class="inner-header">Гостиницы Седоны</h1>
       <ul class="select-control">
         <li class="select-control-item">
-          <a href="index.html" class="main-inner-link"><img src="#" alt="Главная"></a>
+          <a href="index.html" class="main-inner-link"><img src="image/little-home.svg" width="13" height="15" alt="Главная"></a>
         </li>
         <li class="select-control-item">
-          <img src="#" alt="Стрелка">
+          <img src="image/next-right.svg" width="6.39" height="9.93" alt="Стрелка">
         </li>
         <li class="select-control-item">
           <a href="#" class="main-inner-link"><p class="select-control-item-list">Гостиницы</p></a>
@@ -137,15 +146,15 @@
          <option value="cheap">Сначала дешёвое</option>
          <option value="expensive">Сначала дорогое</option>
        </select>
-        <button class="button" type="submit"><img src="#" alt="Сортировка элементами"></button>
-        <button class="button" type="submit"><img src="#" alt="Сортировка таблицей"></button>
-        <button class="button" type="submit"><img src="#" alt="Сортировка списком"></button>
+        <button class="button" type="submit"><img src="image/View-icon1.png" width="16" height="14" alt="Сортировка элементами"></button>
+        <button class="button" type="submit"><img src="image/View=slideshow1.png" width="16" height="14" alt="Сортировка таблицей"></button>
+        <button class="button" type="submit"><img src="image/View=list1.png" width="16" height="14" alt="Сортировка списком"></button>
       </header>
 
       <ul class="catalog-filter-list-items">
         <li class="catalog-filter-link">
           <a class="catalog-items-list" href="product.html">
-            <img class="catalog-items-image" src="#" alt="">
+            <img class="catalog-items-image" src="image/Mount-1.jpeg" width="300" height="212" alt="Изображение скалы">
             <h3 class="catalog-items-title">Amara Resort & Spa</h3>
           </a>
           <span class="name-filter">Гостиница</span>
@@ -153,10 +162,10 @@
           <a class="catalog-filter-button button" href="#">Подробнее</a>
           <button class="button" type="submit">В избранное</button>
           <div class="stars-raiting">
-            <img src="#" alt="звезда">
-            <img src="#" alt="звезда">
-            <img src="#" alt="звезда">
-            <img src="#" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
           </div>
           <div class="number-raiting">
             <span class="number-raiting-check">Рейтинг: 8,5</span>
@@ -165,7 +174,7 @@
 
         <li class="catalog-filter-link">
           <a class="catalog-items-list" href="product.html">
-            <img class="catalog-items-image" src="#" alt="">
+            <img class="catalog-items-image" src="image/Mount-2.jpeg" width="300" height="212" alt="Изображение скалы">
             <h3 class="catalog-items-title">Villas at Poco Diablo</h3>
           </a>
           <span class="name-filter">Гостиница</span>
@@ -173,10 +182,10 @@
           <a class="catalog-filter-button button" href="#">Подробнее</a>
           <button class="button" type="submit">В избранное</button>
           <div class="stars-raiting">
-            <img src="#" alt="звезда">
-            <img src="#" alt="звезда">
-            <img src="#" alt="звезда">
-            <img src="#" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
           </div>
           <div class="number-raiting">
             <span class="number-raiting-check">Рейтинг: 9,2</span>
@@ -185,7 +194,7 @@
 
         <li class="catalog-filter-link">
            <a class="catalog-items-list" href="product.html">
-            <img class="catalog-items-image" src="#" alt="">
+            <img class="catalog-items-image" src="image/Mount-3.jpeg" width="300" height="212" alt="Изображение скалы">
             <h3 class="catalog-items-title">Desert Quail Inn</h3>
           </a>
           <span class="name-filter">Гостиница</span>
@@ -193,10 +202,9 @@
           <a class="catalog-filter-button button" href="#">Подробнее</a>
           <button class="button" type="submit">В избранное</button>
           <div class="stars-raiting">
-            <img src="#" alt="звезда">
-            <img src="#" alt="звезда">
-            <img src="#" alt="звезда">
-            <img src="#" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
           </div>
           <div class="number-raiting">
             <span class="number-raiting-check">Рейтинг: 6,9</span>
@@ -205,7 +213,7 @@
 
         <li class="catalog-filter-link">
           <a class="catalog-items-list" href="product.html">
-            <img class="catalog-items-image" src="#" alt="">
+            <img class="catalog-items-image" src="image/Mount-4.jpeg" width="300" height="212" alt="Изображение скалы">
             <h3 class="catalog-items-title">GreenTree Inn</h3>
           </a>
           <span class="name-filter">Гостиница</span>
@@ -213,10 +221,8 @@
           <a class="catalog-filter-button button" href="#">Подробнее</a>
           <button class="button" type="submit">В избранное</button>
           <div class="stars-raiting">
-            <img src="#" alt="звезда">
-            <img src="#" alt="звезда">
-            <img src="#" alt="звезда">
-            <img src="#" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
+            <img src="image/star.png" width="18" height="17" alt="звезда">
           </div>
           <div class="number-raiting">
             <span class="number-raiting-check">Рейтинг: 5,0</span>
@@ -259,16 +265,19 @@
     <ul class="footer-social-list">
       <li class="footer-social-item">
         <a class="button" href="#">
+          <img src="image/vk-icon.png" width="24" height="14" alt="ВКонтакте">
           <span class="visually-hidden">ВКонтакте</span>
         </a>
       </li>
       <li class="footer-social-item">
         <a class="button" href="#">
+          <img src="image/tg-icon.png" width="18" height="15.1" alt="Твиттер">
           <span class="visually-hidden">Твиттер</span>
         </a>
       </li>
       <li class="footer-social-item">
         <a class="button" href="#">
+          <img src="image/youtube-icon.png" width="22" height="17" alt="Youtube">
           <span class="visually-hidden">Youtube</span>
         </a>
       </li>
@@ -276,7 +285,7 @@
     <address class="footer-contacts-address">
       <a class="footer-contacts-address-phone" href="+7 (812) 812-12-12">+7 (812) 812-12-12</a>
     </address>
-    <img src="#" alt="htmlacademy">
+    <img src="image/html-logo.svg" width="114.9" height="32.9" alt="htmlacademy">
   </footer>
 </body>
 </html>
